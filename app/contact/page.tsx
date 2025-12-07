@@ -100,12 +100,14 @@ export default function ContactPage() {
         </div>
 
         {/* --- COLONNE DROITE : FORMULAIRE --- */}
-        <motion.div 
-            initial={{ opacity: 0, opacity: 0 }}
-            animate={{ opacity: 1, opacity: 1 }}
-            transition={{ delay: 0.5 }}
-            className="lg:w-1/2 bg-white/5 backdrop-blur-md p-8 md:p-12 border border-white/10"
-        >
+        {/* --- COLONNE DROITE : FORMULAIRE --- */}
+<motion.div 
+    initial={{ opacity: 0 }}
+    animate={{ opacity: 1 }}
+    transition={{ delay: 0.5 }}
+    className="lg:w-1/2 bg-white/5 backdrop-blur-md p-8 md:p-12 border border-white/10"
+>
+
             <h3 className="font-mono text-xl mb-8 text-pink-500">Formulaire de Projet</h3>
             
             <form className="space-y-8">
